@@ -1,310 +1,137 @@
-
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title> Group 8 First Project</title>
+        <title>Group 8 CSS Dog Site</title>
+        <style type = "text/css">
+
+            body{
+                background: rgb(19, 7, 14);
+                background-image: url("https://i.pinimg.com/736x/53/27/62/53276295bab833e8f88d710edfb3cb9e.jpg");
+                background-repeat: no-repeat;
+                background-position: right top;
+                background-attachment: fixed;
+                font-family:Arial, Helvetica, sans-serif;
+                color: #111111;
+                font-weight: 500;
+            }
+
+            .boxes{
+                background-color: azure;
+                padding: 20px;
+                margin: 20px;
+                border: 3px solid black;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                max width: 1200px;
+                overflow: auto;
+                box-shadow: 5px 5px 5px;
+            }
+            
+            /* headings */
+            h1, h2, h3 {
+                color: black;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight:900;
+                font-style: italic;
+                font-align: right;
+                font-weight: bold;
+            }
+
+            /* links */
+            a {
+                font-weight: bold;
+            }
+
+            a:hover {
+                color: red;
+            }
+
+            p a {
+                text-transform: uppercase;
+            }
+
+            /* lists */
+            ol {
+                list-style-type: lower-roman;
+            }
+
+            /* bold */
+            strong {
+                font-weight: 900;
+            }
+
+            /* italic */
+            em {
+                font-style: oblique;
+                font-weight: 600;
+            }
+
+            /* table */
+            table {
+                width: 75%;
+                background-color: white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            th {
+                text-transform: uppercase;
+                font-size: 90%;
+                text-align: center;
+                border-bottom: 2px solid black;
+                border-top: 1px solid gray;
+                width: 50%;
+            }
+
+            /* image */
+            img.centered {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            img.left {
+                float: left;
+                margin: 15px;
+                margin-top: 15px;
+            }
+
+            img.right {
+                float: right;
+                margin-left: 15px;
+                margin-top: 15px;
+            }
+
+            /* button */
+            div.button {
+                border: 1px  solid red;
+                border-radius: 10px;
+                width: 150px;
+                height 75px;
+                padding: 19px;
+                text-align: center;
+                background-color: pink;
+                margin: auto;
+                -webkit-transition: width 1s, height 1s;
+                transition: width 1s, height 1s;
+            }
+
+            div.button:hover {
+                backgroun-color: white;
+                border: 1px solid black;
+                width: 160px;
+                height: 80px;
+            }
+
+            
+
+
+        </style>
+
     </head>
 
-    <body>
-
-       <!--this section was created together by everyone in class on Tuesday-->
-       <div> <!--Intro-->
-            <header>
-                <h1>Group 8</h1>
-                <h2> Yasmine, Pearl, Tu, Eric, Rachel </h2>
-            </header>
 
 
-            <ul>
-                <li>Husky</li>
-                <li>Samoyed</li>
-                <li>Chow Chow</li>
-                <li>Pomeranian</li>
-                <li>Shiba Inu</li>
-            </ul>
-        </div>
-
-        <!--//Begin Erics section-->
-        <div>
-        <h1>Husky</h1>
-        <p>The Siberian Husky is a friendly and energetic breed. Originally bred as sled dogs their energetic yet gentle nature also makes them the perfect fit for family life, given they still have enough space to run around.
-        </p>
-        </div>
-        
-        <img src="https://www.akc.org/wp-content/uploads/2017/11/Siberian-Husky-standing-outdoors-in-the-winter.jpg" alt="Siberian Husky image" title="Siberian Husky" width="250" height="200">
-        
-        <div>
-            <h2><span style="color: purple">Is the Siberian Husky the right dog for you?</span></h2>
-            <table border="10">
-                <caption><strong>Husky Traits</strong></caption>
-                                <tr>
-                    <td><strong><em>Social</em></strong></td>
-                    <td>Affectionate</td>
-                    <td>Playfull</td>
-                    <td>Good w/ kids and dogs</td>
-                </tr>
-                <tr>
-                    <td><strong><em>Physical</em></strong></td>
-                    <td>High shedding</td>
-                    <td>Moderate grooming</td>
-                    <td>Low drooling</td>
-                </tr>
-                <tr>
-                    <td><strong><em>Personality</em></strong></td>
-                    <td>High energy</td>
-                    <td>Frequent barking</td>
-                    <td>Moderate to train</td>
-                </tr>
-            </table>
-                   <h3><span style="color: purple">Husky Attributes</span></h3>
-            <ul>
-                <li><strong>Height</strong> 21-23.5 inches (male) and 20-22 inches (female)</li>
-                <li><strong>Weight</strong> 45-60 pounds (male) and 35-50 pounds (female)</li>
-                <li><strong>Life Expectancy</strong> from 12-14 years</li>
-            </ul>
-        <a href="https://www.akc.org/dog-breeds/siberian-husky/">Reference</a>
-        </div>
-        <!--//End Eric's section-->
-        
-        <!--this section was done by Pearl. It covers fun facts about Pomeranians to go with the general theme of dogs. Started on April 12, 2022 at 10:39 pm-->
-        <h1>Pomeranians</h1>
-        <p>Pomeranians are a toy dog breed and are in the general breed of Spitz. They descend from the German Spitz which are made up of much larger dog breeds.</p>
-        <a href="https://www.akc.org/dog-breeds/pomeranian/">More Pomeranian Information</a>
-        <div>
-            <h2>General Information</h2>
-            <table border="1">
-                <caption><strong>Quick Facts</strong></caption>
-                <tr>
-                    <td>Height</td>
-                    <td>Weight</td>
-                    <td>Life Expectancy</td>
-                </tr>
-                <tr>
-                    <td>6-7 inches</td>
-                    <td>3-7 pounds</td>
-                    <td>12-16 years</td>
-                </tr>
-            </table>
-        </div>
-
-        <div>
-            <h3><span style="color:purple">Traits and Characteristics</span></h3>
-            <ul>
-                <li><em>very</em> affectionate</li>
-                <li><strong>somewhat</strong> good with children</li>
-                <li><strong>somewhat</strong> good with other dogs</li>
-            </ul>
-            <img src="https://www.allthingsdogs.com/wp-content/uploads/2020/01/White-Pomeranian-Feature-678x381.jpg" alt="a picture of a white pomeranian that I took from google." title="white pomeranian">
-            <h3><span style="color:purple">Training</span></h3>
-            <ol>
-                <li><strong><em>must</em></strong> be patient</li>
-                <li><strong><em>never</em></strong> reward your pom after 5 to 10 seconds of a certain action</li>
-                <li>use <strong><em>special</em></strong> treats</li>
-            </ol>
-        </div>
-        <!--this is the end of Pearl's code on Pomeranians. A table, image, and two lists were added. Two headings under General Information are colored purple. Finished on April 12, 2022 at 11:50 PM-->
-        
-        <!-- Tu's section Start.
-        Characteristics and fun fact about samoyed.
-        code headings and paragraph to present informations-->
-        <h1> Samoyed At First Glance</h1>
-        <img width="900px" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F02%2F18%2Fsamoyed-two-puppies-grass-201760029.jpg" alt="A picture of a Samoyed." title="Samoyed Dog">
-        
-        <p> The Samoyed is a average sized dog. Samoyed are squarely built, sturdy dog, and with a fluffy curled tail. 
-            The bred is known for hunting, haul sledges, and herding reindeer. Samoyed dog breed proved a valuable companion for northwestern Siberia's Samoyede people.</p>
-        <strong> Expectation:</strong>
-        <p> The mininum required exercise is about 20-40 minutes/day.</p>
-        <strong> Weight Range:</strong>
-        <p> Male: 50-65 lbs</p>
-        <p> Female: 35-50 lbs</p>
-        <strong> Height at Withers:</strong>
-        <p> Male: 22in.</p>
-        <p> Female: 20in.</p>
-        <!--Create table -->
-        <div> 
-            <table border ="4px">
-                <caption><strong>Pros & Cons</strong></caption>
-              
-                <tr>
-                    <td>Playful & Friendly</td>
-                    <td>Shedding</td>
-                
-                </tr>
-                <tr>
-                    <td>Quick learner</td>
-                    <td>Expensive</td>
-                </tr> 
-                 <tr>
-                    <td>Good with other dogs </td>
-                    <td>Bad with warm weather</td> 
-                   
-                </tr>
-            </table>
-        </div>
-        <!-- Create List/bullet point-->
-
-        <div>
-            
-            <h2><em>Necessity</em></h2>
-
-            <h2><span style="color:hotpink"> Common Health Issues</span></h2>
-            <ul> 
-                <li>Glaucoma</li>
-                <li>Hip dysplasia</li>
-                <li>Samoyed Hereditary Glomerulopathy</li>
-            </ul>
-
-            <h2><span style="color:blue"> Samoyed's Diet</span></h2>
-            <ol>
-                <li>Purina ONE SmartBlend Healthy Puppy Formula Dry Dog Food.</li>
-                <li>American Journey Salmon & Sweet Potato Recipe Grain-Free Dry Dog Food</li>
-                <li>Taste of the Wild- High Prairie Grain-Free Dry Dog Food</li>
-            </ol>
-            <img src="https://www.purina.com/sites/g/files/auxxlc196/files/styles/kraken_product_carousel_regular/public/2021-06/purina-one-healthy-puppy-food.png?itok=kc2L_h46" alt="Best dog food for Samoyed" title="Dog Food">
-            <a href="https://a-z-animals.com/animals/samoyed/">Source: A-Z animals</a>
-        </div>
-        <!-- Tu's code Section Ends Here-->
-        <div>
-        <!-- Rachel's Section begins-->
-        <h1>Shiba Inu</h1>
-        <p>The Shiba Inu is a cute, proud, and stubborn breed of dog. They are a hunting dog originating in Japan and are currently the number one most beloved dog breed there. Although the Shiba Inu is prized for its beautiful foxlike appearance and thick orange to tan coat, they come in other colors such as black, cream and sesame. For additional impromation please check the <a href="https://www.akc.org/dog-breeds/shiba-inu/">the Shiba Inu American Kennel Club website.</a></p>
-        </div>
-        <img src="https://www.thesun.co.uk/wp-content/uploads/2020/09/NINTCHDBPICT000609732054.jpg" alt="Shiba inu's from the internet" title="Shiba Inu's" width="250" height="200">
-        <div>
-            <!--Table including the <em> and <strong>-->
-            <h1><span style="color: red">Is the Shiba Inu your perfect dog?</span></h1>
-            <table border="10">
-                <caption><strong>What you should expect</strong></caption>
-                                <tr>
-                    <td><strong><em>Trainability</em></strong></td>
-                    <td>Intelegent</td>
-                    <td>Difficult to train</td>
-                    <td>Can be stubborn</td>
-                </tr>
-                <tr>
-                    <td><strong><em>Family Dog</em></strong></td>
-                    <td>Indapendent</td>
-                    <td>Good with older children</td>
-                    <td>Not Hypoallergenic</td>
-                </tr>
-                <tr>
-                    <td><strong><em>Grooming and Care</em></strong></td>
-                    <td>1 hour of daily exercise</td>
-                    <td>Weekly brushing</td>
-                    <td>Feed daily with high quality dog food</td>
-                </tr>
-            </table>
-            <div>
-                   <h2><span style="color:rgb(139, 46, 46)">Shiba Inu Attributes</span></h2>
-                   <!--List Begins including <strong>-->
-            <ul>
-                <li><strong>Height</strong> from 14.5-16.5 inches (male) and 13.5-15.5 inches (female)</li>
-                <li><strong>Weight</strong> from 23 pounds (male) and 17 pounds (female)</li>
-                <li><strong>Lifespan</strong> from 13-16 years</li>
-            </ul>
-            </div> <!--Mark's comment: The div tag on the next line is missing the > bracket!-->
-            <div
-           <h3><span style="color:rgb(58, 139, 46)">Where to get your Shiba Inu</span></h3>
-            <!--List Begins including <strong>-->
-            <ol>
-                <li>Shiba Inus can be purchase from a responsible breeder.</li>
-                <li>Shiba Inus can be found in animal shelters or pounds.</li>
-            </ol>
-           <h4><span style="color:rgb(139, 46, 46)">Where <strong>NOT</strong> to get your Shiba Inu</span></h4>
-           <ol>
-                <li>You should <strong>NOT</strong> purchase a Shiba Inu from a pet store or puppy mill.</li>
-                <li>Be careful what online sites you buy your puppy from; they may also be from a puppy mill. Make sure to always meet the parents of your new puppy before purchase.</li>
-           </ol>
-           </div>
-        <!-- Rachel's code Section Ends Here-->
-
-        <!-- Yasmine's Section-->
-        <!-- Facts / characteristics / info on Chow Chows-->
-        <div> <!--Intro-->
-            <h1>Chow Chow</h1>
-            <p>The Chow Chow is a dog breed originally from northern China. The Chow Chow is a sturdily built dog, square in profile, with a broad skull and small, triangular, erect ears with rounded tips. The breed is known for a very dense double coat that is either smooth or rough. For more information visit <a href="https://www.akc.org/dog-breeds/chow-chow/">The American Kennel Club</a>.</p>
-            <img src = "https://www.thefarmersdog.com/digest/wp-content/uploads/2021/12/chow.jpg" style = "width: 100%;" alt = "Two Chow Chows in a field" title = "Chow Chow Dogs">
-        </div>
-
-        <!--General-->
-        <div>
-            <table border = "4"> 
-                <caption><strong>Characteristics</strong></caption>
-                <tr>
-                    <td> </td>
-                    <td>Min</td>
-                    <td>Max</td>
-                </tr>
-                <tr>
-                    <td>Height</td>
-                    <td>17in</td>
-                    <td>22in</td>
-                </tr>
-                <tr>
-                    <td>Weight (Male)</td>
-                    <td>40lb</td>
-                    <td>90lb</td>
-                </tr>
-                <tr>
-                    <td>Weight (Female)</td>
-                    <td>35lb</td>
-                    <td>85lb</td>
-                </tr>
-                <tr>
-                    <td>Litter Size</td>
-                    <td>4</td>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td>Life Span</td>
-                    <td>11 years</td>
-                    <td>13 years</td>
-                </tr>
-
-            </table>
-
-            <h2><strong>Are they a good fit for <em>you</em>?</strong></h2>
-            <p>
-                Very affectionate.
-                <br>Good with kids.
-                <br>Okay with other dogs.
-                <br>
-                <br>Lots of hair shedding, hair everywhere.
-                <br>Needs daily coat grooming.
-                <br>High drooling level.
-            </p>
-
-            <h3>Popular Colors</h3>
-            <ol>
-                <li> <span style="color:red">Red</span></li>
-                <li>Black</li>
-                <li> <span style="color:grey">White</span></li>
-                <li> <span style="color:blue">Blue</span></li>
-            </ol>
-        </div>
-
-        <div> <!--Health-->
-            <h3><em>Health Issues</em></h3>
-            <ul>
-                <li>Entripiom</li>
-                <li>Glaucoma</li>
-                <li>Juvenile Cataracts</li>
-                <li>Lymphoma</li>
-                <li>Hip Dysplasia</li>
-                <li>Diabetes Mellitus</li>
-                <li>Canine Pemphigus</li>
-                <li>Gastric Cancer</li>
-            </ul>
-
-            <h4> <span style="color:red">High Risk</span> </h4>
-            <ul>
-                <li>Autoimmune Disease</li>
-                <li>Skin Melanoma</li>
-            </ul>
-        </div>
-
-        <!-- End of Yasmine's Section-->
-
-    </body>
 </html>
