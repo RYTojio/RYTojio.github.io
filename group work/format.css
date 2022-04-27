@@ -1,17 +1,17 @@
 
 
             body{
-                background: rgb(19, 7, 14);
                 background-image: url("https://i.pinimg.com/736x/53/27/62/53276295bab833e8f88d710edfb3cb9e.jpg");
-                height: 100%;
-                background-repeat: repeat;
-                background-position: right top;
+                background-size: cover;
+                background-repeat: no-repeat;
                 background-attachment: fixed;
-                font-family:Arial, Helvetica, sans-serif;
+                /*Pearl: fixed the background so that image covers all of the background and it's not repeating*/
+                font-family: serif;
                 color: #111111;
                 font-weight: 500;
             }
 
+            /*
             .boxes{
                 background-color: azure;
                 padding: 20px;
@@ -21,28 +21,37 @@
                 margin-left: auto;
                 margin-right: auto;
                 width: 80%;
-                max width: 1200px;
+                max-width: 1200px;
                 overflow: auto;
                 box-shadow: 5px 5px 5px;
             }
-            
+            Pearl: Check Discord message on 4/26 at 8:13 pm*/
+        
             /* headings */
-            h1, h2, h3 {
-                color: black;
+            h1 {
+                color: rgb(0, 0, 0);
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight:900;
                 font-style: italic;
-                font-align: right;
                 font-weight: bold;
+                text-align: center;
             }
+
+            h2 {
+                color:rgb(0, 137, 133);
+            }
+            /*Pearl: edited both h1 and h2 sections so h1 was centered and h2 would be a different color*/
 
             /* links */
             a {
                 font-weight: bold;
+                font-size: 17px;
+                /*Pearl: changed font size of links*/
             }
 
             a:hover {
-                color: red;
+                color: rgb(224, 146, 255);
+                /*Pearl: changed link hover colors to purple*/
             }
 
             p a {
@@ -67,46 +76,32 @@
 
             /* table */
             table {
-                width: 75%;
-                background-color: white;
+                width: 60%;
+                border: 3px solid;
+                background-color: rgb(218, 223, 255);
+                /*Pearl: changed the width, added a border, changed background color*/
                 margin-left: auto;
                 margin-right: auto;
             }
 
-            th {
-                text-transform: uppercase;
-                font-size: 90%;
-                text-align: center;
-                border-bottom: 2px solid black;
-                border-top: 1px solid gray;
-                width: 50%;
+            img {
+                border-radius: 50px;
+                visibility: visible;
+                opacity: 0.5;
+                /*Pearl: rounded all images, set visibility to visible, made all images have an opacity of 0.5*/
             }
 
-            /* image */
-            img.centered {
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-            }
-
-            img.left {
-                float: left;
-                margin: 15px;
-                margin-top: 15px;
-            }
-
-            img.right {
-                float: right;
-                margin-left: 15px;
-                margin-top: 15px;
+            img:hover {
+                opacity: 1.0;
+                /*Pearl: added this so when hovering over an image, the opacity changes to 1.0*/
             }
 
             /* button */
-            div.button {
+            /*div.button {
                 border: 1px  solid red;
                 border-radius: 10px;
                 width: 150px;
-                height 75px;
+                height: 75px;
                 padding: 19px;
                 text-align: center;
                 background-color: pink;
@@ -121,8 +116,5 @@
                 width: 160px;
                 height: 80px;
             }
-
+            Pearl: check Discord message on 4/26 at 8:13 PM*/
             
-
-
-    
