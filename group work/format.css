@@ -2,8 +2,9 @@
 
             body{
                 background: rgb(19, 7, 14);
-                background-image: url("https://i.pinimg.com/736x/53/27/62/53276295bab833e8f88d710edfb3cb9e.jpg" );
-                background-repeat: no-repeat;
+                background-image: url("https://i.pinimg.com/736x/53/27/62/53276295bab833e8f88d710edfb3cb9e.jpg");
+                height: 100%;
+                background-repeat: repeat;
                 background-position: right top;
                 background-attachment: fixed;
                 font-family:Arial, Helvetica, sans-serif;
