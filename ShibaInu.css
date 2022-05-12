@@ -1,0 +1,138 @@
+
+
+            body{
+                background-image: url("https://i.pinimg.com/736x/53/27/62/53276295bab833e8f88d710edfb3cb9e.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                /*Pearl: fixed the background so that image covers all of the background and it's not repeating*/
+                font-family: serif;
+                color: #111111;
+                font-weight: 500;
+            }
+
+            /*
+            .boxes{
+                background-color: azure;
+                padding: 20px;
+                margin: 20px;
+                border: 3px solid black;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                max-width: 1200px;
+                overflow: auto;
+                box-shadow: 5px 5px 5px;
+            }
+            Pearl: Check Discord message on 4/26 at 8:13 pm. Delete if not needed*/
+        
+            /* headings */
+            h1 {
+                color: rgb(0, 0, 0);
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight:900;
+                font-style: italic;
+                font-weight: bold;
+                text-align: center;
+            }
+            #itext {
+                font-style: italic;
+                color:rgb(19, 79, 59);
+            }
+
+            h2 {
+                color:rgb(0, 137, 133);
+            }
+            /*Pearl: edited both h1 and h2 sections so h1 was centered and h2 would be a different color*/
+
+            /* links */
+            a {
+                font-weight: bold;
+                font-size: 17px;
+                /*Pearl: changed font size of links*/
+            }
+
+            a:hover {
+                color: rgb(224, 146, 255);
+                /*Pearl: changed link hover colors to purple*/
+            }
+
+            p a {
+                text-transform: uppercase;
+            }
+
+            /* lists */
+            ol {
+                list-style-type: lower-roman;
+            }
+            ul.names {
+                display: block;
+                width: 10%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            /* bold */
+            strong {
+                font-weight: 900;
+            }
+
+            /* italic */
+            em {
+                font-style: oblique;
+                font-weight: 600;
+            }
+
+            /* table */
+            table {
+                width: 60%;
+                border: 3px solid;
+                background-color: rgb(218, 223, 255);
+                /*Pearl: changed the width, added a border using css, changed background color*/
+                margin-left: auto;
+                margin-right: auto;
+            }
+            table.highlighter {
+                background: rgb(255, 255, 188);
+            }
+
+            img {
+                border-radius: 50px;
+                visibility: visible;
+                opacity: 0.5;
+                /*Pearl: rounded all images, set visibility to visible, made all images have an opacity of 0.5*/
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                /*centered code*/
+            }
+
+            img:hover {
+                opacity: 1.0;
+                /*Pearl: added this so when hovering over an image, the opacity changes to 1.0*/
+            }
+
+            /*button*/
+            div.button {
+                border: 1px  solid red;
+                border-radius: 10px;
+                width: 150px;
+                height: 75px;
+                padding: 19px;
+                text-align: center;
+                background-color: pink;
+                margin: auto;
+                -webkit-transition: width 1s, height 1s;
+                transition: width 1s, height 1s;
+            }
+
+            div.button:hover {
+                background-color: white;
+                border: 1px solid black;
+                width: 160px;
+                height: 80px;
+            }
+            /*Pearl: check Discord message on 4/26 at 8:13 PM. Delete if not needed.*/
+            
