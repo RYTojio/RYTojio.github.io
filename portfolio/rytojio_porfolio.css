@@ -2,7 +2,10 @@ body {
 background-color: aqua;
 background-size: cover;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;
+Padding: 0;
 }
+
 h1 {
-color: rgb(78, 0, 31);
+color: #4e001f;
 }
