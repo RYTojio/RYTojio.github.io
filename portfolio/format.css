@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(126, 126, 126);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -7,17 +7,18 @@ body {
     Padding: 0;
 }
 
-li, a, button {
+a, button {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 16px;
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     align-items: center;
 }
 
 header {
-    background-color: rgb(101, 101, 101);
+    background-color: rgb(129, 206, 128);
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,8 +28,9 @@ header {
     text-align: center;
 }
 .about-me {
-    background-color: rgb(101, 101, 101);
+    background-color: rgb(129, 206, 128);
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 .facts {
     width: 1000px;
@@ -39,9 +41,14 @@ header {
     margin: 20px;
     float: left;
 }
+.row {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h1 {
-    color: #4e001f;
+    color: #ffffff;
 }
 
 .logo {
@@ -54,7 +61,7 @@ h1 {
 .nav__links li {
     display: inline-block;
     padding: 7px 20px;
-    background-color: #4e001f;
+    background-color: #7fc160;
     border: none;
     border-radius: 50px;
 }
@@ -64,12 +71,12 @@ h1 {
 }
 
 .nav__links li a:hover {
-    color: aqua;
+    color: rgb(235, 163, 81);
 }
 
 button {
     padding: 9px 25px;
-    background-color:rgb(85, 250, 228, 1);
+    background-color:rgb(246, 133, 46);
     border: none;
     border-radius:50px;
     cursor: pointer;
@@ -77,5 +84,10 @@ button {
 }
 
 button:hover {
-    background-color:rgb(250, 85, 209, 0.8)
+    background-color:rgba(180, 90, 34, 0.8)
+}
+footer {
+    background-color: rgb(129, 206, 128);
+    text-align: center;
+    color: #ffffff;
 }
