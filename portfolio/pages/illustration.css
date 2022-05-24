@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    Padding: 0;
+}
+
+a, button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(129, 206, 128);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.img-container {
+    text-align: center;
+}
+.about-me {
+    background-color: rgb(129, 206, 128);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.facts {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.facts-image {
+    margin: 20px;
+    float: left;
+}
+.row {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.logo {
+    cursor: pointer;
+}
+.container-fluid {
+    text-align: center;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #7fc160;
+    border: none;
+    border-radius: 50px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(235, 163, 81);
+}
+
+button {
+    padding: 9px 25px;
+    background-color:rgb(246, 133, 46);
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color:rgba(180, 90, 34, 0.8)
+}
+footer {
+    background-color: rgb(129, 206, 128);
+    text-align: center;
+    color: #ffffff;
+}
