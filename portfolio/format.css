@@ -23,6 +23,22 @@ header {
     justify-content: space-between;
     padding: 30px 10%;
 }
+.img-container {
+    text-align: center;
+}
+.about-me {
+    background-color: rgb(101, 101, 101);
+    text-align: center;
+}
+.facts {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.facts-image {
+    margin: 20px;
+    float: left;
+}
 
 h1 {
     color: #4e001f;
@@ -30,6 +46,9 @@ h1 {
 
 .logo {
     cursor: pointer;
+}
+.container-fluid {
+    text-align: center;
 }
 
 .nav__links li {
