@@ -27,19 +27,20 @@ header {
 .img-container {
     text-align: center;
 }
-.about-me {
+.my-work {
     background-color: rgb(129, 206, 128);
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.facts {
+.photo {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-.facts-image {
+.photo-image {
     margin: 20px;
     float: left;
+    
 }
 .row {
     width: 1000px;
