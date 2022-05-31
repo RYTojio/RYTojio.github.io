@@ -24,15 +24,62 @@ header {
     justify-content: space-between;
     padding: 10px 10%;
 }
-.img-container {
-    width: 100%;
-    height: 790px;
-    object-fit: cover;
-    background-color: rgb(227, 227, 227);
-    background-image: url(../image/slide_border.PNG);
-    background-position: top;
 
+h1 {
+    color: #ffffff;
 }
+
+.logo {
+    cursor: pointer;
+}
+.container-fluid {
+    text-align: right;
+}
+/*---------Slide Animation images--------*/
+.img-container {
+    padding:0;
+    margin: 0;
+    background-color: rgb(227, 227, 227);
+}
+.slider-frame {
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+/*---------Slide Animation images--------*/
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+.slide-image {
+    width: 3600px;
+    height:800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.img-container {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+/*---------About Me--------*/
 .about-me {
     background-image: url(../image/info.PNG);
     background-color: rgb(129, 206, 128);
@@ -57,18 +104,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-
-h1 {
-    color: #ffffff;
-}
-
-.logo {
-    cursor: pointer;
-}
-.container-fluid {
-    text-align: right;
-}
-
+/*---------Navbar--------*/
 .nav__links li {
     display: inline-block;
     padding: 7px 7px;
@@ -83,7 +119,7 @@ h1 {
     color: rgb(235, 163, 81);
     width: auto;
 }
-
+/*---------button--------*/
 button {
     padding: 7px 20px;
     background-color:rgb(246, 133, 46);
@@ -96,6 +132,7 @@ button {
 button:hover {
     background-color:rgba(180, 90, 34, 0.8)
 }
+/*---------footer--------*/
 footer {
     background-image: url(../image/footer.PNG);
     background-color: rgb(129, 206, 128);
