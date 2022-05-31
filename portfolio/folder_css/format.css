@@ -28,13 +28,16 @@ header {
     text-align: center;
     width: 100%;
     background-color: rgb(227, 227, 227);
+    background-image: url(../image/slide_border.PNG);
 }
 .about-me {
-    background-image: url(image/info.PNG);
+    background-image: url(../image/info.PNG);
     background-color: rgb(129, 206, 128);
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 110px;
+    background-size: cover;
+    
 }
 .facts {
     width: 1000px;
@@ -91,6 +94,7 @@ button:hover {
     background-color:rgba(180, 90, 34, 0.8)
 }
 footer {
+    background-image: url(../image/footer.PNG);
     background-color: rgb(129, 206, 128);
     text-align: center;
     color: #ffffff;
