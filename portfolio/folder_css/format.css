@@ -17,33 +17,34 @@ a, button {
 }
 
 header {
-    background-color: #608cc1;
+    background-color: rgb(129, 206, 128);
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 10%;
+    padding: 10px 10%;
 }
 .img-container {
     text-align: center;
+    width: 100%;
+    background-color: rgb(227, 227, 227);
 }
-.my-work {
-    background-color: #608cc1;
+.about-me {
+    background-image: url(image/info.PNG);
+    background-color: rgb(129, 206, 128);
     text-align: center;
     color: rgb(255, 255, 255);
+    padding: 20px;
 }
-.photo {
+.facts {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
-.photo-image-left {
+.facts-image {
     margin: 20px;
-    float: left; 
-}
-.photo-image-right {
-    margin: 20px;
-    float: right;  
+    float: left;
 }
 .row {
     width: 1000px;
@@ -59,15 +60,13 @@ h1 {
     cursor: pointer;
 }
 .container-fluid {
-    text-align: center;
+    text-align: right;
 }
 
 .nav__links li {
     display: inline-block;
-    padding: 7px 20px;
-    background-color: #608cc1;
-    border: none;
-    border-radius: 50px;
+    padding: 7px 7px;
+    padding-top: 25px;
 }
 
 .nav__links li a {
@@ -76,10 +75,11 @@ h1 {
 
 .nav__links li a:hover {
     color: rgb(235, 163, 81);
+    width: auto;
 }
 
 button {
-    padding: 9px 25px;
+    padding: 7px 20px;
     background-color:rgb(246, 133, 46);
     border: none;
     border-radius:50px;
@@ -91,7 +91,8 @@ button:hover {
     background-color:rgba(180, 90, 34, 0.8)
 }
 footer {
-    background-color: #608cc1;
+    background-color: rgb(129, 206, 128);
     text-align: center;
     color: #ffffff;
+    padding: 40px;
 }
