@@ -36,7 +36,7 @@ h1 {
     text-align: right;
 }
 /*---------Slide Animation images--------*/
-.img-container {
+.slide-image {
     padding:0;
     margin: 0;
     background-color: rgb(227, 227, 227);
@@ -62,7 +62,7 @@ h1 {
     90% {left:0px;}
     100% {left:0px;}
 }
-.slide-image {
+.slide-show {
     width: 3600px;
     height:800px;
     margin: 0 0 0 -2400px;
