@@ -36,48 +36,97 @@ h1 {
     text-align: right;
 }
 /*---------Slide Animation images--------*/
-.slide-image {
+.slideshowbody{
+    margin:0;
     padding:0;
-    margin: 0;
-    background-color: rgb(227, 227, 227);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #cecece;
 }
-.slider-frame {
+.slider {
+    width: 1280px;
+    height: 720px;
     overflow: hidden;
-    height: 800px;
-    width: 1200px;
-    margin-left: 360px;
-    margin-top: 20px;
 }
-/*---------Slide Animation images--------*/
-@-webkit-keyframes slide_animation{
-    0% {left:0px;}
-    10% {left:0px;}
-    20% {left:1200px;}
-    30% {left:1200px;}
-    40% {left:2400px;}
-    50% {left:2400px;}
-    60% {left:1200px;}
-    70% {left:1200px;}
-    80% {left:0px;}
-    90% {left:0px;}
-    100% {left:0px;}
+.slides {
+    width: 6400px;
+    height: 720px;
+    display: flex;
 }
-.slide-show {
-    width: 3600px;
-    height:800px;
-    margin: 0 0 0 -2400px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
+.slides input{
+    display: none;
 }
-.img-container {
-    height: 800px;
-    width: 1200px;
-    position: relative;
-    float: left;
+.slide{
+    width:20%;
+    transition: 2s;
+}
+.slide img{
+    width: 1280px;
+    height: 720px;
+}
+/*maual nav*/
+.navigation-manual {
+    position: absolute;
+    width: 1280px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #23E3C9;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background:#23E3C9;
+}
+#radio1:checked ~ .first {
+    margin-left:0;
+}
+#radio2:checked ~ .first {
+    margin-left:-20%;
+}
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+/*css auto nav*/
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 1280px;
+    justify-content: center;
+    margin-top: 680px;
+}
+.navigation-auto div{
+    border: 2px solid #23E3C9;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){ 
+    margin-right: 40px;
+}
+#radio1:checker ~ .nagivation-auto .auto-btn1{
+    background: #23E3C9;
+}
+#radio2:checker ~ .nagivation-auto .auto-btn2{
+    background: #23E3C9;
+}
+#radio3:checker ~ .nagivation-auto .auto-btn3{
+    background: #23E3C9;
+}
+#radio4:checker ~ .nagivation-auto .auto-btn4{
+    background: #23E3C9;
 }
 /*---------About Me--------*/
 .about-me {
