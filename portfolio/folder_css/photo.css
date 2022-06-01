@@ -17,7 +17,7 @@ a, button {
 }
 
 header {
-    background-color: rgb(128, 151, 206);
+    background-color: rgb(194, 128, 206);
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -131,7 +131,7 @@ h1 {
 /*---------About Me--------*/
 .my-work {
     background-image: url(../image/info.PNG);
-    background-color: rgb(128, 151, 206);
+    background-color: rgb(194, 128, 206);
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;
@@ -190,7 +190,7 @@ button:hover {
 /*---------footer--------*/
 footer {
     background-image: url(../image/footer.PNG);
-    background-color: rgb(128, 151, 206);
+    background-color: rgb(194, 128, 206);
     background-position: bottom;
     background-repeat: no-repeat;
     text-align: center;

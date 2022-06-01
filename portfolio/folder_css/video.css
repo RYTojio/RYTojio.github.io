@@ -17,7 +17,7 @@ a, button {
 }
 
 header {
-    background-color: rgb(128, 151, 206);
+    background-color: rgb(206, 128, 168);
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -28,7 +28,10 @@ header {
 h1 {
     color: #ffffff;
 }
-
+h2 {
+    margin-top: 20px;
+    text-align: right;
+}
 .logo {
     cursor: pointer;
 }
@@ -129,30 +132,26 @@ h1 {
     background: #23E3C9;
 }
 /*---------About Me--------*/
-.my-work {
+.about-me {
     background-image: url(../image/info.PNG);
-    background-color: rgb(128, 151, 206);
+    background-color: rgb(206, 128, 168);
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;
     color: rgb(255, 255, 255);
     padding: 40px;    
 }
-.photo {
+.video {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
 }
-.photo-image-left {
-    width: 1000;
+.video-image {
     margin: 20px;
-    float: left; 
-}
-.photo-image-right {
-    width: 1000;
-    margin: 20px;
-    float: right;  
+    width: 800px;
+    float: left;
+    overflow: hidden;
 }
 .row {
     width: 1000px;
@@ -190,7 +189,7 @@ button:hover {
 /*---------footer--------*/
 footer {
     background-image: url(../image/footer.PNG);
-    background-color: rgb(128, 151, 206);
+    background-color: rgb(206, 128, 168);
     background-position: bottom;
     background-repeat: no-repeat;
     text-align: center;
