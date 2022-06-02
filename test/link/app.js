@@ -28,7 +28,7 @@ let data = [
 const info = document.querySelector('#info');
 
 /*let details = data.map(funtion(item) {
-    return '<div>' + item.name + ' ' + 'rarity:' item.Rarity + '</div>';
+    return '<div>' + item.name + ' ' + 'rarity:' item.rarity + '</div>';
 });
 
 info.innerHTML = details.join('\n');*/
