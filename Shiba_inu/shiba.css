@@ -16,14 +16,19 @@
             }
             .container {
                 margin-top: 30px;
+                padding: 10px;
+                align-items: center;
             }
-
+            .invisibletext{
+                visibility: hidden;
+            }
             h1 {
                 font-family:sans-serif;
                 font-weight:900;
                 font-style: italic;
                 font-weight: bold;
                 text-align: center;
+
             }
             h3 {
                 color: white;
@@ -73,8 +78,12 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items:center;
-                box-sizing: 500px;
                 object-fit: contain;
+            }
+            * {
+                box-sizing:border-box;
+                margin: 0;
+                padding:0;
             }
             .shiba {
                 font-size: 10rem;
