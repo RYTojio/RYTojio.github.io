@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#info div {
+    padding: 3rm;
+    background: rgb(165, 62, 62);
+    margin: 0.5rem;
+    border:10px;
+    color: floralwhite;
+    font-size: 1.2rem;
+    text-align: center;
+}*/
