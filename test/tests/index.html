@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Link</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Shiba</h1>
+        <div id="output_div"></div>
+        <script>
+            var outputHTML ="";
+            var ages = ["Puppy", "Young", "Adult", "Senior"];
+
+            outputHTML += "<table>";
+            for (var i = 0; i < ages.length; i++) {
+                outputHTML += "<tr>";
+                outputHTML += ages [i] + age[i] + "<t/td>";
+                outputHTML += "</tr>";
+            }
+            outputHTML += "</table>";
+            
+            document.getElementbyId("output_div").innerHTML = outputHTML;
+            /*const cars = ["BMW", "volvo", "saab", "Ford", "Fiat", "Audi"];
+
+            let text = "";
+            for(let i = 0; i < cars.length; i++) {
+                text += cars[i] + "<br>";
+            }
+            
+            document.getElementById("demo").innerHTML = text;*/
+        </script>
+    </body>
+</html>
