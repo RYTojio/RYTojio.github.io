@@ -1,18 +1,56 @@
-const blackShiba = document.querySelector('.closed');
-const tanShiba = document.querySelector('.open');
+/*mouse click and if*/
+const blackShiba = document.querySelector('.vis');
+const tanShiba = document.querySelector('.notvis');
 //event
-
+console.log(blackShiba);
+console.log(tanShiba);
 /*if statement*/
-blackShiba.addEventListener('click', () => {
-    if(tanShiba.classList.contains('open')) {
-        tanShiba.classList.add('active');
-        blackShiba.classList.remove('active');
+function active() {
+    if(tanShiba.classList.contains('notvis')) {
+        tanShiba.classList.add('vis');
+        tanShiba.classList.remove('notvis');
+        blackShiba.classList.add('notvis');
+        blackShiba.classList.remove('vis');
+    }else{
+        blackShiba.classList.add('vis');
+        blackShiba.classList.remove('notvis');
+        tanShiba.classList.add('notvis');
+        tanShiba.classList.remove('vis');
     }
+}
+/* array */
+let data = [
+    {
+        name: 'Sesame',
+        rarity: 'Super rare'
+    },
+    {
+        name: 'Red Sesame',
+        rarity: 'Rare'
+    },
+    {
+        name: 'Black Sesame',
+        rarity: 'Rare'
+    },
+    {
+        name: 'Cream',
+        rarity: 'Rare'
+    },
+    {
+        name: 'Black & Tan',
+        rarity: 'Uncommon'
+    },
+    {
+        name: 'Red',
+        rarity: 'Common'
+    }
+];
+
+const info = document.querySelector('#info');
+
+let details = data.map(function(item) {
+    return '<div>' + item.name + ' ' + item.rarity + '</div>';
 });
 
-tanShiba.addEventListener('click', () => {
-    if(blackShiba.classList.contains('closed')) {
-        blackShiba.classList.add('active');
-        blackShiba.classList.remove('active');
-    }
-});
+info.innerHTML = details.join('\n');
+/*end array*/
