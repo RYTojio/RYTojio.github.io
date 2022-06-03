@@ -13,25 +13,14 @@
         <div id="output_div"></div>
         <script>
             var outputHTML ="";
-            var ages = ["Puppy", "Young", "Adult", "Senior"];
-
-            outputHTML += "<table>";
-            for (var i = 0; i < ages.length; i++) {
-                outputHTML += "<tr>";
-                outputHTML += ages [i] + age[i] + "<t/td>";
-                outputHTML += "</tr>";
-            }
-            outputHTML += "</table>";
-            
-            document.getElementbyId("output_div").innerHTML = outputHTML;
-            /*const cars = ["BMW", "volvo", "saab", "Ford", "Fiat", "Audi"];
+            const age = ["Puppy", "Young", "Adult", "Senior"];
 
             let text = "";
-            for(let i = 0; i < cars.length; i++) {
-                text += cars[i] + "<br>";
+            for(let i = 0; i < age.length; i++) {
+                text += age[i] + "<br>";
             }
             
-            document.getElementById("demo").innerHTML = text;*/
+            document.getElementById("output_div").innerHTML = text;
         </script>
     </body>
 </html>

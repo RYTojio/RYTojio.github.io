@@ -16,7 +16,7 @@ let data = [
         rarity: 'rare'
     },
     {
-        name: 'Black& Tan',
+        name: 'Black & Tan',
         rarity: 'uncommon'
     },
     {
@@ -27,8 +27,8 @@ let data = [
 
 const info = document.querySelector('#info');
 
-/*let details = data.map(funtion(item) {
-    return '<div>' + item.name + ' ' + 'rarity:' item.rarity + '</div>';
+let details = data.map(function(item) {
+    return '<div>' + item.name + ' ' + 'rarity:' + item.rarity + '</div>';
 });
 
-info.innerHTML = details.join('\n');*/
+info.innerHTML = details.join('\n');

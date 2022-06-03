@@ -35,7 +35,7 @@
                 <h2>Know the Breed</h2>
                 <p>The Shiba Inu is a cute, proud, and stubborn breed of dog. They are a hunting dog originating in Japan and are currently the number one most beloved dog breed there. Although the Shiba Inu is prized for its beautiful foxlike appearance and thick orange to tan coat, they come in other colors such as black, cream and sesame. For additional impromation please check the <a href="https://www.akc.org/dog-breeds/shiba-inu/">the Shiba Inu American Kennel Club website.</a></p>
             
-            <h4><span style="color:rgb(139, 46, 46)">Shiba Inu Attributes</span></h4>
+            <h4><span style="color:rgb(165, 62, 62);">Shiba Inu Attributes</span></h4>
             <!--List Begins including <strong>-->
      <ul>
          <li><strong>Height</strong> from 14.5-16.5 inches (male) and 13.5-15.5 inches (female)</li>
@@ -52,7 +52,7 @@
                 <div class="row">
             <div class="col-md-6"> 
         <!--Table including the <em> and <strong>-->
-                <h4><span style="color: red">Is the Shiba Inu your perfect dog?</span></h4>
+                <h4><span style="color: rgb(165, 62, 62);">Is the Shiba Inu your perfect dog?</span></h4>
                 <table class="highlighter">
                 <!--Class Code linked to Highlighter-->
                     <tr>
@@ -88,7 +88,7 @@
                         </ol>
                         </div>
                         <div class="col-md-6">
-                       <h4><span style="color:rgb(139, 46, 46)">Where <strong>NOT</strong> to get your Shiba Inu</span></h4>
+                       <h4><span style="color:rgb(165, 62, 62);">Where <strong>NOT</strong> to get your Shiba Inu</span></h4>
                        
                        <ol>
                             <li>You should <strong>NOT</strong> purchase a Shiba Inu from a pet store or puppy mill.</li>
@@ -97,28 +97,57 @@
                        </div>
                     </div>
             </div>
-            <!--Code for Changing picture-->
+            <!--mouse click and if, else-->
             <div class="col-md-6">
-            <div class="shibahappy">
-                <div class="shiba close active"><img src="//imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F03%2F16%2Fshiba-inu-mountain-163896916.jpg" width="500" height="500"></div>
-                   <div class="shiba open"><img src="https://www.thesprucepets.com/thmb/zY3HlLW8_ttejrOx2MlsNGcfLRo=/1414x1414/smart/filters:no_upscale()/EricVanderVeken500pxGettyImages-1068094978-9df2fa51da8749488b7d0b653fec8030.jpg" width="500" height="500"></div>
-                   <script src="shiba.js"></script>
-               </div>
+            <div class="shibahappy" onclick="active();">
+                <div class="shiba vis"><img src="//imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F03%2F16%2Fshiba-inu-mountain-163896916.jpg" width="500" height="500" title="Click Me"></div>
+                <div class="shiba notvis"><img src="https://www.thesprucepets.com/thmb/zY3HlLW8_ttejrOx2MlsNGcfLRo=/1414x1414/smart/filters:no_upscale()/EricVanderVeken500pxGettyImages-1068094978-9df2fa51da8749488b7d0b653fec8030.jpg" width="500" height="500" title="Click Me"></div>
+                </div>
             </div>
             <!--end code for changing picture-->
         </div>
     </div>
             <!--column end-->
-        <div class="container">
-        <div class="img-container">
-            <div class="col-md-7">
-                <img src="https://i.pinimg.com/originals/82/29/27/82292768517777653f021b7286047917.jpg" alt="Shiba inu's from the internet2" title="Shiba Inu's" width="500">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="container">
+                <div class="img-container">
+                    <div class="col-md-7">
+                    <img src="https://i.pinimg.com/originals/82/29/27/82292768517777653f021b7286047917.jpg" alt="Shiba inu's from the internet2" title="Shiba Inu's" width="500">
+                    </div>
+                </div>
             </div>
+            </div>
+        <div class="col-md-6">
+            <div class="shibacolors">
+                <h2>Shiba Inu Fur Colors & Rarity</h2>
+            <div id="info"></div>
+            </div>
+            <!--for loop variables, array-->
+            <div class="Shiba-age">
+            <h3>How Old is My Shiba Inu</h3>
+            <!--bellow is array-->
+            <div id="output_div"></div>
+            <!--for loop-->
+            <script>
+                var outputHTML ="";
+                const age = ["Puppy 0 - 1 years", "Young 1 - 3 years", "Adult 3 - 10 years", "Senior 11+"];
+                let text = "";
+                for(let i = 0; i < age.length; i++) {
+                    text += age[i] + "<br>";
+                }
+                
+                document.getElementById("output_div").innerHTML = text;
+            </script>
+            </div>
+            <!--for loops end-->
         </div>
     </div>
+
         
         <!-- Rachel's code Section Ends Here-->
         <a class="navbar-brand" href="https://markdangerchen.github.io/">BIMD 233 Web Design</a>
     </main>
+    <script src="shiba.js"></script>
     </body>
 </html>
