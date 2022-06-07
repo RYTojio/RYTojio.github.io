@@ -1,12 +1,11 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #9dc88d;
     background-size: cover;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     Padding: 0;
 }
-
 a, button {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
@@ -15,16 +14,14 @@ a, button {
     text-decoration: none;
     align-items: center;
 }
-
 header {
-    background-color: rgb(194, 128, 206);
+    background-color: #164a41;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10%;
+    padding: 30px 10%;
 }
-
 h1 {
     color: #ffffff;
 }
@@ -35,12 +32,10 @@ h1 {
 .container-fluid {
     text-align: right;
 }
-
-
 /*---------About Me--------*/
 .my-work {
     background-image: url(../image/info.PNG);
-    background-color: rgb(209, 209, 209);
+    background-color: #4d774e;
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;
@@ -112,11 +107,9 @@ h1 {
     padding: 7px 7px;
     padding-top: 25px;
 }
-
 .nav__links li a {
     transition: all 0.3s ease 0s;
 }
-
 .nav__links li a:hover {
     color: rgb(235, 163, 81);
     width: auto;
@@ -130,14 +123,13 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-
 button:hover {
     background-color:rgba(180, 90, 34, 0.8)
 }
 /*---------footer--------*/
 footer {
     background-image: url(../image/footer.PNG);
-    background-color: rgb(194, 128, 206);
+    /*background-color: rgb(194, 128, 206);*/
     background-position: bottom;
     background-repeat: no-repeat;
     text-align: center;
