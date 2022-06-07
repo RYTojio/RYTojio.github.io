@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #4d774e;
     background-size: cover;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,7 +17,7 @@ a, button {
 }
 
 header {
-    background-color: rgb(129, 206, 128);
+    background-color: #164a41;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ h1 {
     display:flex;
     justify-content: center;
     align-items: center;
-    background: #cecece;
+    background: #4d774e;
 }
 .slider {
     width: 1280px;

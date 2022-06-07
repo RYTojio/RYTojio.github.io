@@ -1,5 +1,5 @@
 body {
-    background-color: #9dc88d;
+    background-color: #4d774e;
     background-size: cover;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -61,6 +61,7 @@ h1 {
 .image__img {
     display: block;
     width: 100%;
+    border-radius: 20px;
 
 }
 .image__overlay {
@@ -77,6 +78,7 @@ h1 {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
+    border-radius: 20px;
 }
 .image__overlay>* {
     transform: translateY(20px);
