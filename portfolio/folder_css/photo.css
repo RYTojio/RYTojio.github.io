@@ -80,6 +80,7 @@ h1 {
     transition: opacity 0.25s;
     border-radius: 20px;
 }
+
 .image__overlay>* {
     transform: translateY(20px);
     transition: transform 0.25s;

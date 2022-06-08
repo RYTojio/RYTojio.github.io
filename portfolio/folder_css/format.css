@@ -22,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10%;
+    padding: 30px 10%;
 }
 
 h1 {
@@ -147,11 +147,6 @@ h1 {
 .facts-image {
     margin: 20px;
     float: left;
-}
-.row {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
 }
 /*---------Navbar--------*/
 .nav__links li {
