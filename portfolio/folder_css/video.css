@@ -32,10 +32,8 @@ h1 {
 .container-fluid {
     text-align: right;
 }
-.image__display {
-    display: block;
-    width: 100%;
-    border-radius: 20px;
+.video__display {
+    text-align: center;
 }
 /*---------About Me--------*/
 .my-work {
