@@ -6,7 +6,6 @@ body {
     margin: 0;
     Padding: 0;
 }
-
 a, button {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
@@ -15,7 +14,6 @@ a, button {
     text-decoration: none;
     align-items: center;
 }
-
 header {
     background-color: #164a41;
     color: rgb(255, 255, 255);
@@ -24,11 +22,9 @@ header {
     justify-content: space-between;
     padding: 30px 10%;
 }
-
 h1 {
     color: #ffffff;
 }
-
 .logo {
     cursor: pointer;
 }
@@ -39,13 +35,13 @@ h1 {
 .slideshowbody{
     margin:0;
     padding:0;
-    height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
     background: #4d774e;
 }
 .slider {
+    display: block;
     width: 1280px;
     height: 720px;
     overflow: hidden;
@@ -63,8 +59,33 @@ h1 {
     transition: 2s;
 }
 .slide img{
+    display:block;
     width: 1280px;
     height: 720px;
+}
+/*Welcome Overlay*/
+.overlay_welcome {
+    position: absolute;
+    top: 300;
+    left: 200;
+    width: 500px;
+    height: 400px;
+    background: rgba(241, 178, 74, 0.8);
+    color:rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    border-top-left-radius: 0px;
+}
+.welcome_title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.welcome_description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
 }
 /*maual nav*/
 .navigation-manual {
@@ -75,7 +96,7 @@ h1 {
     justify-content: center;
 }
 .manual-btn{
-    border: 2px solid #23E3C9;
+    border: 2px solid #f1b24a;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -85,7 +106,7 @@ h1 {
     margin-right: 40px;
 }
 .manual-btn:hover {
-    background:#23E3C9;
+    background:#f1b24a;
 }
 #radio1:checked ~ .first {
     margin-left:0;

@@ -88,11 +88,11 @@ h1 {
     transform: translateY(0);
 }
 .image__title {
-    font-size: 2;
+    font-size: 2em;
     font-weight: bold;
 }
 .image__description {
-    font-size: 2em;
+    font-size: 1.25em;
     margin-top: 0.25em;
 }
 .row {
