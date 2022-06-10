@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 10%;
+    padding: 25px 10%;
 }
 h1 {
     color: #ffffff;
@@ -200,8 +200,8 @@ button:hover {
 /*---------footer--------*/
 footer {
     background-image: url(../image/footer.PNG);
-    background-color: rgb(129, 206, 128);
-    background-position: bottom;
+    background-color: #9dc88d;
+    background-position: top;
     background-repeat: no-repeat;
     text-align: center;
     color: #ffffff;

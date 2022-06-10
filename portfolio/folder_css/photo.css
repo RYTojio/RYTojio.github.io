@@ -20,9 +20,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 10%;
+    padding: 25px 10%;
 }
 h1 {
+    font-size: 5em;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -34,13 +36,14 @@ h1 {
 }
 /*---------About Me--------*/
 .my-work {
-    background-image: url(../image/info.PNG);
+    background-image: url(../image/title_left.PNG);
     background-color: #4d774e;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 40px;    
+    padding: 80px;   
+    padding-right: 600px; 
 }
 /*----------Gallary---------*/
 .photo {
@@ -132,8 +135,8 @@ button:hover {
 /*---------footer--------*/
 footer {
     background-image: url(../image/footer.PNG);
-    /*background-color: rgb(194, 128, 206);*/
-    background-position: bottom;
+    background-color: #9dc88d;
+    background-position: top;
     background-repeat: no-repeat;
     text-align: center;
     color: #ffffff;
